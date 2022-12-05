@@ -3,7 +3,7 @@
     min-height: 1200px;
     /* border: 2px solid red; */
 }
-.main div{
+.header{
     min-height: 80px;
     min-width: 800px;
     background: black;
@@ -19,6 +19,7 @@
     padding-top: 10px;
     font-family: Poppins, sans-serif;
 }
+
 .back-image{
     position: absolute;
     display: flex;
@@ -27,10 +28,33 @@
     margin: auto;
 }
 .back-image h1{
-    text-shadow: 5px 3px 3px #000}
+    text-shadow: 5px 3px 3px #000
+}
 .welcome{
     position: absolute;
     font-family: 'Poppins', sans-serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px black;
+    top: 250px;
+    /* background-color: #0c0c0b; */
+}
+.welcome :hover{
+    opacity: 0.5;
+}
+.catalog{
+    position: absolute;
+    min-width: 45%;
+    min-height: 900px;
+    border: 2px solid red;
+    top: 600px;
+}
+.catalog h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
 }
