@@ -1,5 +1,36 @@
 .main{
     min-width: 1600px;
     min-height: 1200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+.main div{
+    min-height: 80px;
+    min-width: 800px;
+    background: black;
+    border-radius: 6px 6px 0px 0px;
+}
+.main h2{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: white;
+    margin-left: 20px;
+    margin: auto;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-family: Poppins, sans-serif;
+}
+.back-image{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.back-image h1{
+    text-shadow: 5px 3px 3px #000}
+.welcome{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: white;
 }
